@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "private": true,
+  "version": "0.0.0",
+  "description": "a Sails application",
+  "keywords": [],
+  "dependencies": {
+    "rc": "1.0.1",
+    "sails": "~0.12.3",
+    "sails-disk": "~0.10.9"
+  },
+  "scripts": {
+    "debug": "node debug server.js",
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cargo-transport/backend.git"
+  },
+  "author": "Phanindra Pydisetty",
+  "license": ""
+}
