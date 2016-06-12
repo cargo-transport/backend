@@ -22,3 +22,12 @@ module.exports = {
   // }
 
 };
+
+module.exports = {
+  log: {
+    level: 'debug'
+  },
+  models: {
+    migrate: 'alter'
+  }
+};
